@@ -1,0 +1,116 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background-color: dimgray;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.about-1{
+    margin: 30px;
+    padding: 5px;
+}
+.about-1 h1{ 
+    text-align: center;
+    color:black;
+    font-weight: bold;
+    background-color: #F8EDE3;
+    margin-top: 0px;
+}
+.about-1 p{
+    text-align: center;
+    padding: 3px;
+    line-height: 2;
+}
+.banner{
+    position: relative;
+    height: 900px;
+    float:left;
+    width:100%;
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.banner .banner-text{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right:0;
+    left:0;
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    color:#5c0e76;
+
+}
+.banner-text h3 {
+    margin:0;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 500;
+    color:#5800FF;
+}
+.banner-text p{
+    margin:0;
+    font-size: 25px;
+}
+ .s-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+ }
+.first{
+    background-color: #EDF1FF;
+    color: #30E3DF;
+    font-size: 20px;
+    font-weight: 300;
+}
+.about-item{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: white;
+    padding: 80px,30px;
+    box-shadow: 0 0 9px rgba(0,0,0.6);
+}
+
+.about-item h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.about-item hr{
+    width: 46px;
+    height: 3px;
+    background-color: #5fbff9;
+    margin: 0 auto;
+    border:nome;
+}
+.about-item p{
+    margin-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 8px;
+}
+.about-item:hover{
+    background-color: #96E5D1;
+}
+.about-item:hover i,
+.about-item:hover h3,
+.about-item:hover p{
+    color:#fff;
+}
+.about-item:hover hr {
+    background-color: #fff;
+}
+.about-item:hover i{
+    transform: translateY(-20px);
+}
+.about-item:hover i,
+.about-item:hover h3,
+.about-item:hover hr{
+    transition: all 400ms ease-in-out;
+}
+
